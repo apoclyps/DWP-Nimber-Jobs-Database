@@ -1,0 +1,5 @@
+USE ubiquity;
+
+LOAD DATA LOCAL INFILE 'C:/Users/Kyle/Desktop/Nimbler-Database/results.csv' 
+INTO TABLE ubiquity.yagajobs FIELDS TERMINATED BY ',' ENCLOSED BY '"' 
+LINES TERMINATED BY '\n';
